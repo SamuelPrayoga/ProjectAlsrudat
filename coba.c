@@ -27,7 +27,7 @@ void Input(char ch[50]){
 	ch[strlen(ch) - 1] = 0; 
 }
 
-char cekUser(char email[50],char username[50]){
+char cekUser(char email[50],char username[55]){
     int i;
 	for(i=0;i<strlen(email);i++){
 		if(email[i] == '@') break;
